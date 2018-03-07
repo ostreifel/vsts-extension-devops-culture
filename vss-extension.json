@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "devops-culture",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "name": "DevOps Culture",
     "description": "You can't buy DevOps but you can install it into your VSTS account.",
     "publisher": "gordon-beeming",
