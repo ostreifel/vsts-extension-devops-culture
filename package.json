@@ -1,0 +1,23 @@
+{
+  "name": "devops-culture",
+  "version": "1.0.0",
+  "description": "You can't buy DevOps but you can install it into your VSTS account.",
+  "main": "index.js",
+  "dependencies": {
+    "vss-web-extension-sdk": "^5.127.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gordon-Beeming/vsts-extension-devops-culture.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gordon-Beeming/vsts-extension-devops-culture/issues"
+  },
+  "homepage": "https://github.com/Gordon-Beeming/vsts-extension-devops-culture#readme"
+}
