@@ -1,0 +1,66 @@
+{
+    "manifestVersion": 1,
+    "id": "devops-culture",
+    "version": "1.0.0",
+    "name": "DevOps Culture",
+    "description": "You can't buy DevOps but you can install it into your VSTS account.",
+    "publisher": "gordon-beeming",
+    "public": true,
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+            }
+        ],
+    "icons": {
+        "default": "images/icon.png"
+     },
+     "content": {
+         "details": {
+             "path": "README.md"
+         }
+     }, 
+    "contributions": [
+        {
+            "id": "devops-culture",
+            "type": "ms.vss-web.hub-group",
+            "description": "Adds a 'DevOps Culture' hub to VSTS.",
+            "targets": [
+                "ms.vss-web.home-hub-group"
+                ],
+            "properties": {
+                "name": "DevOps Culture",
+                "order": 150
+            }
+        },        
+        {
+            "id": "what-is-devops",
+            "type": "ms.vss-web.hub",
+            "description": "Hub DevOps Culture hub group.",
+            "targets": [
+                ".devops-culture"
+            ],
+            "properties": {
+                "name": "What is DevOps?",
+                "order": 100,
+                "uri": "what-is-devops.html"
+            }
+        }
+    ],
+    "scopes": [
+        "vso.profile"
+    ],
+    "files": [
+        {
+            "path": "what-is-devops.html", "addressable": true
+        },
+        {
+            "path": "scripts", "addressable": true
+        },   
+        {
+            "path": "node_modules/vss-web-extension-sdk/lib","addressable": true
+        },
+        {
+            "path": "images/icon.png", "addressable": true
+        }
+    ]
+}
