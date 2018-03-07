@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "devops-culture",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "name": "DevOps Culture",
     "description": "You can't buy DevOps but you can install it into your VSTS account.",
     "publisher": "gordon-beeming",
@@ -60,7 +60,7 @@
             "path": "node_modules/vss-web-extension-sdk/lib","addressable": true
         },
         {
-            "path": "images/icon.png", "addressable": true
+            "path": "images", "addressable": true
         }
     ]
 }
