@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "devops-culture",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "name": "DevOps Culture",
     "description": "You can't buy DevOps but you can install it into your VSTS account.",
     "publisher": "gordon-beeming",
@@ -18,7 +18,11 @@
          "details": {
              "path": "README.md"
          }
-     }, 
+     },
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/Gordon-Beeming/vsts-extension-devops-culture"
+    },
     "contributions": [
         {
             "id": "devops-culture",
